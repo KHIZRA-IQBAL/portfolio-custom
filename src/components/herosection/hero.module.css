@@ -1,0 +1,26 @@
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    margin-top: 8.125rem;
+    font-size: 5.9375rem;
+    color: white;
+    font-weight: 900;
+}
+
+.herolineparent{
+    height: 200px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.herolineparent .heroline{
+    height: 2px;
+    width: 480px;
+    background-color: white;
+}

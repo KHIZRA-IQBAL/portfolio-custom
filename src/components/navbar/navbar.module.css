@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+}
+
+
+.navbar .navline{
+    height: 2px;
+    width: 480px;
+    background-color: white;
+}
+
+
+.navbar ul{
+    font-family:  sans-serif;
+    font-size: 27px;
+    color: white;
+    display: flex;
+    gap: 38px;
+    justify-content: space-evenly;
+}
+
+.navbar ul li{
+    margin-right: 25px;
+}
+
